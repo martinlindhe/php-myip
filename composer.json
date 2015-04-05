@@ -1,5 +1,7 @@
 {
     "name": "martinlindhe/php-myip",
+    "description": "External IP providers",
+    "keywords": ["external ip", "ip", "ident.me", "icanhazip.com", "ipecho.net"],
     "license": "MIT",
     "require": {
         "nategood/httpful": "~0.2"
