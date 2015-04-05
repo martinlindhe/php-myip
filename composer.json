@@ -1,0 +1,16 @@
+{
+    "name": "martinlindhe/php-myip",
+    "license": "MIT",
+    "require": {
+        "nategood/httpful": "~0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "martinlindhe/php-debughelper": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyIp\\": "inc"
+        }
+    }
+}
