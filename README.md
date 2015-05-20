@@ -9,7 +9,7 @@ In composer.json
 ```json
 {
     "require": {
-        "martinlindhe/php-myip": "~0.1"
+        "martinlindhe/php-myip": "~0.2"
     }
 }
 ```
