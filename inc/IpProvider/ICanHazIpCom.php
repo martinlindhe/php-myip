@@ -1,4 +1,4 @@
-<?php namespace MyIp\IpProvider;
+<?php namespace MartinLindhe\MyIp\IpProvider;
 
 use Httpful\Request;
 use Httpful\Response;

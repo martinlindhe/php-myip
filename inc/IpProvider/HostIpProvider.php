@@ -1,4 +1,4 @@
-<?php namespace MyIp\IpProvider;
+<?php namespace MartinLindhe\MyIp\IpProvider;
 
 class HostIpProvider extends IpProvider
 {

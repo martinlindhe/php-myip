@@ -6,7 +6,7 @@ function nfo($s)
     echo "\n".date('r')." ".$s."\n";
 }
 
-$ipProvider = \MyIp\IpProvider\IpProvider::factory();
+$ipProvider = MartinLindhe\MyIp\IpProvider\IpProvider::factory();
 
 $ip = $ipProvider->getIPv4();
 nfo("ip ".$ip);

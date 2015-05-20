@@ -1,10 +1,12 @@
 <?php
 
 use DebugHelper\Stopwatch;
-use MyIp\IpProvider\HostIpProvider;
-use MyIp\IpProvider\ICanHazIpCom;
-use MyIp\IpProvider\IdentMe;
-use MyIp\IpProvider\IpechoNet;
+
+use MartinLindhe\MyIp\IpProvider\IpProvider;
+use MartinLindhe\MyIp\IpProvider\HostIpProvider;
+use MartinLindhe\MyIp\IpProvider\ICanHazIpCom;
+use MartinLindhe\MyIp\IpProvider\IdentMe;
+use MartinLindhe\MyIp\IpProvider\IpechoNet;
 
 class ExternalIpProviderTest extends PHPUnit_Framework_TestCase
 {
@@ -15,7 +17,7 @@ class ExternalIpProviderTest extends PHPUnit_Framework_TestCase
 
     public function testFactory()
     {
-        $ip = \MyIp\IpProvider\IpProvider::factory()->getIPv4();
+        $ip = IpProvider::factory()->getIPv4();
         $this->assertIpV4($ip);
     }
 
