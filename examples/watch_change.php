@@ -1,11 +1,6 @@
 <?php
 require __DIR__.'/../vendor/autoload.php';
 
-function nfo($s)
-{
-    echo "\n".date('r')." ".$s."\n";
-}
-
 $ipProvider = MartinLindhe\MyIp\IpProvider\IpProvider::factory();
 
 $ip = $ipProvider->getIPv4();
