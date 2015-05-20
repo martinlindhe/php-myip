@@ -13,3 +13,12 @@ In composer.json
     }
 }
 ```
+
+
+## Usage
+
+```php
+$ip = MartinLindhe\MyIp\IpProvider\IpProvider::factory()
+    ->getIPv4();
+```
+
