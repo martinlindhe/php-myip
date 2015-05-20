@@ -4,6 +4,7 @@
     "keywords": ["external ip", "ip", "ident.me", "icanhazip.com", "ipecho.net"],
     "license": "MIT",
     "require": {
+        "php": ">=5.4.0",
         "nategood/httpful": "~0.2"
     },
     "require-dev": {
